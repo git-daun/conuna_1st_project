@@ -63,6 +63,8 @@ function reset(){
     userInput.value=""
     //새로운 랜덤번호 생성
     pickRN();
+    chances = 5;
+    chancesArea.textContent=`남은기회 ${chances} 번`  
 }
 
 
